@@ -118,7 +118,7 @@ class Section extends Component {
           nickname: 'Hajir',
           description: 'RedMoon Co-Founder, Islamic Law graduate who has an interest in information technology, coding, and blockchain design as a hobby.',
           fb: 'https://web.facebook.com/hajirsenoasyafi',
-          twt: 'https://twitter.com/onezenoisme',
+          twt: 'https://twitter.com/onezeno_ONE',
           insta: 'https://www.instagram.com/zeno717/',
         },
         {
