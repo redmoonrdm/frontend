@@ -221,7 +221,7 @@ class Section extends Component {
                     <h5 className="f-20">Private Sale <span className="text-primary">Live</span>
                     <br/>-21,000,000 RDM left
                     </h5>
-                    {/*<div id="countdown"></div>*/}
+                    <div id="countdown"></div>
                     <p className="f-17">21,000,000 RDM Private Sale allocation
                     <br/>
                     After private sale token sold, presale schedule will be announced soon.

@@ -4,7 +4,8 @@ import App from './App';
 import { BrowserRouter } from "react-router-dom";
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('G-FLYGCJ40Z5');
+ReactGA.initialize('UA-214523295-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 ReactDOM.render(
   <BrowserRouter>
     <App />
