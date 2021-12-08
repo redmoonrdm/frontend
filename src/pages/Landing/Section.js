@@ -242,22 +242,22 @@ class Section extends Component {
             <Row>
               <Col lg={3}>
                 <div className="client-images">
-                  <h3>700Mn <span className="f-20">Genesis</span></h3>
+                  <h3 className="f-20">700Mn Genesis</h3>
                 </div>
               </Col>
               <Col lg={3}>
                 <div className="client-images">
-                  <h3>350Mn <span className="f-20">Supply</span></h3>
+                  <h3 className="f-20">350Mn Supply</h3>
                 </div>
               </Col>
               <Col lg={3}>
                 <div className="client-images">
-                  <h3>- <span className="f-20">Market Cap</span></h3>
+                  <h3 className="f-20">- Market Cap</h3>
                 </div>
               </Col>
               <Col lg={3}>
                 <div className="client-images">
-                  <h3>- <span className="f-20">Fully Diluted</span></h3>
+                  <h3 className="f-20">- Fully Diluted</h3>
                 </div>
               </Col>
             </Row>
