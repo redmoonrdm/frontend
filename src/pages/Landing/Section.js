@@ -6,6 +6,10 @@ import Img1 from '../../assets/images/users/1.png';
 import Img2 from '../../assets/images/users/2.png';
 import Img3 from '../../assets/images/users/3.png';
 import Img4 from '../../assets/images/users/4.png';
+import Imga from '../../assets/images/a.png';
+import Imgb from '../../assets/images/b.png';
+import Imgc from '../../assets/images/c.png';
+import Imgd from '../../assets/images/d.png';
 
 class Section extends Component {
   constructor () {
@@ -141,30 +145,7 @@ class Section extends Component {
           twt: 'https://twitter.com/abdikonoha',
           insta: 'https://www.instagram.com/teplengg',
         },
-        /*
-        {
-          id: 3,
-          img: Img3,
-          name: 'Nurohman',
-          nickname: 'Rohman',
-          description: 'RedMoon Co-Founder. a Crypto trader and observer since 2016. currently active in exploring business development and marketing.',
-          fb: 'https://web.facebook.com/gundoelalfonso',
-          twt: '',
-          insta: 'https://www.instagram.com/boedesgundoel/',
-        },
-        {
-          id: 4,
-          img: Img4,
-          name: 'Nurkholis',
-          nickname: 'NK',
-          description: 'Crypto enthusiast and observer who has an interest in blockchain, economic models, business development, and marketing strategy.',
-          fb: 'https://web.facebook.com/profile.php?id=100061030488461',
-          twt: 'https://twitter.com/nurkholis3717',
-          insta: '',
-        },
-        */
       ],
-
     }
     this.btnTapped = this.btnTapped.bind(this);
   }
@@ -218,11 +199,18 @@ class Section extends Component {
 
                         <div className="team-social mt-4 pt-2">
                           <ul className="list-inline mb-0">
+                          
+                            <li className="list-inline-item">
+                              <a target="_blank" rel="noreferrer" href="https://discord.gg/4jNsKeh3jF" className="text-reset"><i className="mdi mdi-discord"></i></a>
+                            </li>
                             <li className="list-inline-item">
                               <a target="_blank" rel="noreferrer" href="https://t.me/RedMoonRDM" className="text-reset"><i className="mdi mdi-telegram"></i></a>
                             </li>
                             <li className="list-inline-item">
                               <a target="_blank" rel="noreferrer" href="https://twitter.com/RedMoonRDM" className="text-reset"><i className="mdi mdi-twitter"></i></a>
+                            </li>
+                            <li className="list-inline-item">
+                              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/redmoonrdm/" className="text-reset"><i className="mdi mdi-instagram"></i></a>
                             </li>
                             <li className="list-inline-item">
                               <a target="_blank" rel="noreferrer" href="https://web.facebook.com/RedMoonRDM" className="text-reset"><i className="mdi mdi-facebook"></i></a>
@@ -264,22 +252,22 @@ class Section extends Component {
             <Row>
               <Col lg={3}>
                 <div className="client-images">
-                  <h3 className="f-20">700Mn Genesis</h3>
+                  <img src={Imga} alt="" height="35" />
                 </div>
               </Col>
               <Col lg={3}>
                 <div className="client-images">
-                  <h3 className="f-20">350Mn Supply</h3>
+                  <img src={Imgb} alt="" height="35" />
                 </div>
               </Col>
               <Col lg={3}>
                 <div className="client-images">
-                  <h3 className="f-20">- Market Cap</h3>
+                  <img src={Imgc} alt="" height="27" />
                 </div>
               </Col>
               <Col lg={3}>
                 <div className="client-images">
-                  <h3 className="f-20">- Fully Diluted</h3>
+                  <img src={Imgd} alt="" height="40" />
                 </div>
               </Col>
             </Row>

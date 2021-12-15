@@ -11,7 +11,7 @@ class Footer extends Component {
           id: 1,
           title: "Stay Tuned",
           child: [
-            { title: "Discord", link: "https://discord.gg/6cfJKYHT" },
+            { title: "Discord", link: "https://discord.gg/4jNsKeh3jF" },
             { title: "Medium", link: "https://redmoonrdm.medium.com/" },
           ],
         }
@@ -94,6 +94,9 @@ class Footer extends Component {
 
                         <div className="team-social mt-4 pt-2">
                           <ul className="list-inline mb-0">
+                            <li className="list-inline-item">
+                              <a target="_blank" rel="noreferrer" href="https://discord.gg/4jNsKeh3jF" className="text-reset"><i className="mdi mdi-discord"></i></a>
+                            </li>
                             <li className="list-inline-item">
                               <a target="_blank" rel="noreferrer" href="https://t.me/RedMoonRDM" className="text-reset"><i className="mdi mdi-telegram"></i></a>
                             </li>
