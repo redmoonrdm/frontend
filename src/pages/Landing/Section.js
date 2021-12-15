@@ -252,7 +252,7 @@ class Section extends Component {
             <Row>
               <Col lg={3}>
                 <div className="client-images">
-                  <img src={Imga} alt="" height="35" />
+                  <img src={Imga} alt="" height="30" />
                 </div>
               </Col>
               <Col lg={3}>
@@ -459,7 +459,7 @@ class Section extends Component {
                     If form has problems, contact us directly to the following email :
                     <br/>
                     <br/>
-                    <h6>team@redmoonrise.com</h6>
+                    team@redmoonrise.com
                     </p>
                   </div>
               </Col>

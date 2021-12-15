@@ -25,6 +25,7 @@ var x = setInterval(function() {
   }
 }, 1000);
 
+/*
 document.getElementById('copyaddress').onclick = function(){
   var copyText = document.getElementById("contract");
   copyText.select();
@@ -32,3 +33,4 @@ document.getElementById('copyaddress').onclick = function(){
   navigator.clipboard.writeText(copyText.value);
   alert("Copied Address: " + copyText.value);
 }
+*/
