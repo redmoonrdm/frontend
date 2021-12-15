@@ -50,7 +50,7 @@ class Section extends Component {
             { btitle: '', title: "Private Sale", icon: "mdi-circle text-transparent" },
             { btitle: '', title: "Presale", icon: "mdi-circle text-transparent" },
             { btitle: '', title: "Initial DEX Offering", icon: "mdi-circle text-transparent" },
-            { btitle: '', title: "Marketing", icon: "mdi-circle text-transparent" },
+            { btitle: '', title: "Airdrop", icon: "mdi-circle text-transparent" },
           ],
         },
         {
@@ -109,18 +109,39 @@ class Section extends Component {
           description: 'RedMoon Founder, Computer Science graduate and working as Software Engineer since 2014. is now focusing on blockchain as the future.',
           fb: 'https://web.facebook.com/praymeid',
           twt: 'https://twitter.com/praymeid',
-          insta: 'https://www.instagram.com/praymeid/',
+          insta: 'https://www.instagram.com/praymeid',
         },
         {
           id: 2,
           img: Img2,
+          name: 'Uray Adri Hidayat',
+          nickname: 'Yaaruu',
+          description: 'Computer Science graduate, working as Software Developer since 2017. Music, Technology, and Game Enthusiast.',
+          fb: '',
+          twt: 'https://twitter.com/yyaarruu',
+          insta: 'https://www.instagram.com/ure.uray',
+        },
+        {
+          id: 3,
+          img: Img3,
           name: 'Hajir Asyafi',
           nickname: 'Hajir',
-          description: 'RedMoon Co-Founder, Islamic Law graduate who has an interest in information technology, coding, and blockchain design as a hobby.',
+          description: 'Islamic Law graduate who has an interest in information technology, coding, and blockchain design as a hobby.',
           fb: 'https://web.facebook.com/hajirsenoasyafi',
           twt: 'https://twitter.com/onezeno_ONE',
-          insta: 'https://www.instagram.com/zeno717/',
+          insta: 'https://www.instagram.com/zeno717',
         },
+        {
+          id: 4,
+          img: Img4,
+          name: 'Ahmd Fikri Ilhamdy',
+          nickname: 'Tepleng',
+          description: 'Crypto enthusiast and observer who has an interest in blockchain, economic models, business development, and marketing strategy.',
+          fb: '',
+          twt: 'https://twitter.com/abdikonoha',
+          insta: 'https://www.instagram.com/teplengg',
+        },
+        /*
         {
           id: 3,
           img: Img3,
@@ -141,6 +162,7 @@ class Section extends Component {
           twt: 'https://twitter.com/nurkholis3717',
           insta: '',
         },
+        */
       ],
 
     }
@@ -218,8 +240,8 @@ class Section extends Component {
                   <Col lg={4}>
 
                   <div className="contact-box mt-4">
-                    <h5 className="f-20">Private Sale <span className="text-primary">Live</span>
-                    <br/>-21,000,000 RDM left
+                    <h5 className="f-20">Private Sale <span className="text-primary">Upcoming</span>
+                    <br/>
                     </h5>
                     <div id="countdown"></div>
                     <p className="f-17">21,000,000 RDM Private Sale allocation
@@ -348,8 +370,7 @@ class Section extends Component {
                     <h4 className="f-20 mt-2"> {item.title}</h4>
                     <div className="mt-2">
                       {item.child.map((linkItem, linkkey) => (
-                        <p className="mb-2" key={linkkey}><i
-                          className={"mdi " + linkItem.icon + " f-18 mr-2"}></i><b>{linkItem.btitle}</b> {linkItem.title}</p>
+                        <p className="mb-2" key={linkkey}><i className={"mdi " + linkItem.icon + " f-18 mr-2"}></i><b>{linkItem.btitle}</b> {linkItem.title}</p>
                       ))}
                     </div>
                   </div>
@@ -374,7 +395,7 @@ class Section extends Component {
               {this.state.teams.map((team, teamindex) => (
                 <Col lg={3} className="team-box p-3" key={teamindex}>
                   <div className="mt-4">
-                    <img src={team.img} alt="" className="rounded mb-2" height="270" />
+                    <img src={team.img} alt="" className="rounded mb-2" height="150" />
                     <h5 className="mt-2">{team.name}</h5>
                     <p className="team-badge bg-primary text-white rounded f-14 mt-2">#{team.nickname}</p>
                     <p className="text-muted mt-2">{team.description}</p>
