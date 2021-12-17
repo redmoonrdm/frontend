@@ -111,7 +111,8 @@ class Section extends Component {
           name: 'Suprayetno',
           nickname: 'Prayd',
           description: 'Founder, Computer Science graduate, working as Software Engineer since 2014. is now focusing on blockchain as the future.',
-          fb: 'https://www.linkedin.com/in/suprayetno',
+          in: 'https://www.linkedin.com/in/suprayetno',
+          fb: '',
           twt: 'https://twitter.com/praymeid',
           insta: 'https://www.instagram.com/praymeid',
         },
@@ -121,7 +122,8 @@ class Section extends Component {
           name: 'Uray Adri Hidayat',
           nickname: 'Yaaruu',
           description: 'Co-Founder, Computer Science graduate, working as Software Developer since 2017. Music, Technology, and Game Enthusiast.',
-          fb: 'https://www.linkedin.com/in/uray-adri-hidayat',
+          in: 'https://www.linkedin.com/in/uray-adri-hidayat',
+          fb: '',
           twt: 'https://twitter.com/yyaarruu',
           insta: 'https://www.instagram.com/ure.uray',
         },
@@ -131,8 +133,9 @@ class Section extends Component {
           name: 'Ahmd Fikri Ilhamdy',
           nickname: 'Tepleng',
           description: 'Crypto enthusiast and observer who has an interest in blockchain, economic models, business development, and marketing strategy.',
-          fb: '',
-          twt: 'https://twitter.com/abdikonoha',
+          in: '',
+          fb: 'https://web.facebook.com/tepleng6699',
+          twt: '',
           insta: 'https://www.instagram.com/teplengg',
         },
         {
@@ -141,6 +144,7 @@ class Section extends Component {
           name: 'Hajir Asyafi',
           nickname: 'Hajir',
           description: 'Islamic Law graduate who has an interest in information technology, coding, and blockchain design as a hobby.',
+          in: '',
           fb: '',
           twt: 'https://twitter.com/onezeno_ONE',
           insta: 'https://www.instagram.com/zeno717',
@@ -401,9 +405,14 @@ class Section extends Component {
                     <p className="text-muted mt-2">{team.description}</p>
                     <div className="team-social mt-4 pt-2">
                     <ul className="list-inline mb-0">
+                      {team.in !== '' && (
+                      <li className="list-inline-item">
+                        <a target="_blank" href={team.in} rel="noreferrer" className="text-reset"><i className="mdi mdi-linkedin"></i></a>
+                      </li>
+                      )}
                       {team.fb !== '' && (
                       <li className="list-inline-item">
-                        <a target="_blank" href={team.fb} rel="noreferrer" className="text-reset"><i className="mdi mdi-linkedin"></i></a>
+                        <a target="_blank" href={team.fb} rel="noreferrer" className="text-reset"><i className="mdi mdi-facebook"></i></a>
                       </li>
                       )}
                       {team.twt !== '' && (
