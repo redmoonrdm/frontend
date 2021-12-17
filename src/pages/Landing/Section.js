@@ -227,6 +227,16 @@ class Section extends Component {
                   </Col>
                   <Col lg={4}>
 
+                  <div className="contact-box mt-4">
+                    <h5 className="f-20"><span className="text-primary">Upcoming</span> Events</h5>
+
+                    <p class="mb-2"><i class="mdi mdi-circle text-transparent f-12 mr-2"></i><b>January 07, 2021</b>
+                    <br/>Release CopyTrading Testnet</p>
+
+                    <p class="mb-2"><i class="mdi mdi-circle text-transparent f-12 mr-2"></i><b>January 10, 2021</b>
+                    <br/>Presale on PinkSale</p>
+                  </div>
+
                   {/*
                   <div className="contact-box mt-4">
                     <h5 className="f-20">Private Sale <span className="text-primary">Upcoming</span>
