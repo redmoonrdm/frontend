@@ -110,8 +110,8 @@ class Section extends Component {
           img: Img1,
           name: 'Suprayetno',
           nickname: 'Prayd',
-          description: 'RedMoon Founder, Computer Science graduate and working as Software Engineer since 2014. is now focusing on blockchain as the future.',
-          fb: 'https://web.facebook.com/praymeid',
+          description: 'Founder, Computer Science graduate, working as Software Engineer since 2014. is now focusing on blockchain as the future.',
+          fb: 'https://www.linkedin.com/in/suprayetno',
           twt: 'https://twitter.com/praymeid',
           insta: 'https://www.instagram.com/praymeid',
         },
@@ -120,23 +120,13 @@ class Section extends Component {
           img: Img2,
           name: 'Uray Adri Hidayat',
           nickname: 'Yaaruu',
-          description: 'Computer Science graduate, working as Software Developer since 2017. Music, Technology, and Game Enthusiast.',
-          fb: '',
+          description: 'Co-Founder, Computer Science graduate, working as Software Developer since 2017. Music, Technology, and Game Enthusiast.',
+          fb: 'https://www.linkedin.com/in/uray-adri-hidayat',
           twt: 'https://twitter.com/yyaarruu',
           insta: 'https://www.instagram.com/ure.uray',
         },
         {
           id: 3,
-          img: Img3,
-          name: 'Hajir Asyafi',
-          nickname: 'Hajir',
-          description: 'Islamic Law graduate who has an interest in information technology, coding, and blockchain design as a hobby.',
-          fb: 'https://web.facebook.com/hajirsenoasyafi',
-          twt: 'https://twitter.com/onezeno_ONE',
-          insta: 'https://www.instagram.com/zeno717',
-        },
-        {
-          id: 4,
           img: Img4,
           name: 'Ahmd Fikri Ilhamdy',
           nickname: 'Tepleng',
@@ -144,6 +134,16 @@ class Section extends Component {
           fb: '',
           twt: 'https://twitter.com/abdikonoha',
           insta: 'https://www.instagram.com/teplengg',
+        },
+        {
+          id: 4,
+          img: Img3,
+          name: 'Hajir Asyafi',
+          nickname: 'Hajir',
+          description: 'Islamic Law graduate who has an interest in information technology, coding, and blockchain design as a hobby.',
+          fb: '',
+          twt: 'https://twitter.com/onezeno_ONE',
+          insta: 'https://www.instagram.com/zeno717',
         },
       ],
     }
@@ -227,6 +227,7 @@ class Section extends Component {
                   </Col>
                   <Col lg={4}>
 
+                  {/*
                   <div className="contact-box mt-4">
                     <h5 className="f-20">Private Sale <span className="text-primary">Upcoming</span>
                     <br/>
@@ -238,6 +239,7 @@ class Section extends Component {
                     </p>
                     <a target="_blank" rel="noreferrer" href="https://forms.gle/CYxfpgDMG6qaqB3g8" className="btn btn-sm btn-soft-danger mr-3">Join Private Sale</a>
                   </div>
+                  */}
 
                   </Col>
                 </Row>
@@ -251,22 +253,22 @@ class Section extends Component {
           <Container>
             <Row>
               <Col lg={3}>
-                <div className="client-images">
+                <div className="client-images mb-2">
                   <img src={Imga} alt="" height="30" />
                 </div>
               </Col>
               <Col lg={3}>
-                <div className="client-images">
-                  <img src={Imgb} alt="" height="35" />
+                <div className="client-images mb-2">
+                  <img src={Imgb} alt="" height="32" />
                 </div>
               </Col>
               <Col lg={3}>
-                <div className="client-images">
+                <div className="client-images mb-2">
                   <img src={Imgc} alt="" height="27" />
                 </div>
               </Col>
               <Col lg={3}>
-                <div className="client-images">
+                <div className="client-images mb-2">
                   <img src={Imgd} alt="" height="40" />
                 </div>
               </Col>
@@ -391,7 +393,7 @@ class Section extends Component {
                     <ul className="list-inline mb-0">
                       {team.fb !== '' && (
                       <li className="list-inline-item">
-                        <a target="_blank" href={team.fb} rel="noreferrer" className="text-reset"><i className="mdi mdi-facebook"></i></a>
+                        <a target="_blank" href={team.fb} rel="noreferrer" className="text-reset"><i className="mdi mdi-linkedin"></i></a>
                       </li>
                       )}
                       {team.twt !== '' && (
@@ -425,9 +427,11 @@ class Section extends Component {
                   <br/>
                   Every community member can participate in future development, and each platform is fully decentralized
                   </p>
+                  {/*
                   <div className="mt-4 pt-2">
                     <a target="_blank" rel="noreferrer" href="https://forms.gle/CYxfpgDMG6qaqB3g8" className="btn btn-soft-danger">Join Private Sale</a>
                   </div>
+                  */}
                 </div>
               </Col>
             </Row>
