@@ -110,7 +110,7 @@ class Section extends Component {
           img: Img1,
           name: 'Suprayetno',
           nickname: 'Prayd',
-          description: 'Founder, Computer Science graduate, working as Software Engineer since 2014. is now focusing on blockchain as the future.',
+          description: 'Computer Science graduate, working as Software Engineer since 2014. is now focusing on blockchain as the future.',
           in: 'https://www.linkedin.com/in/suprayetno',
           fb: '',
           twt: 'https://twitter.com/praymeid',
@@ -121,7 +121,7 @@ class Section extends Component {
           img: Img2,
           name: 'Uray Adri Hidayat',
           nickname: 'Yaaruu',
-          description: 'Co-Founder, Computer Science graduate, working as Software Developer since 2017. Music, Technology, and Game Enthusiast.',
+          description: 'Computer Science graduate, working as Software Developer since 2017. Music, Technology, and Game Enthusiast.',
           in: 'https://www.linkedin.com/in/uray-adri-hidayat',
           fb: '',
           twt: 'https://twitter.com/yyaarruu',
@@ -132,7 +132,7 @@ class Section extends Component {
           img: Img4,
           name: 'Ahmd Fikri Ilhamdy',
           nickname: 'Tepleng',
-          description: 'Crypto enthusiast and observer who has an interest in blockchain, economic models, business development, and marketing strategy.',
+          description: 'Crypto enthusiast and observer who has an interest in blockchain, economics, business development, and marketing strategy.',
           in: '',
           fb: 'https://web.facebook.com/tepleng6699',
           twt: '',
@@ -231,29 +231,26 @@ class Section extends Component {
                   </Col>
                   <Col lg={4}>
 
-                  <div className="contact-box mt-4">
-                    <h5 className="f-20"><span className="text-primary">Upcoming</span> Events</h5>
 
-                    <p class="mb-2"><i class="mdi mdi-circle text-transparent f-12 mr-2"></i><b>January 07, 2021</b>
-                    <br/>Release CopyTrading Testnet</p>
-
-                    <p class="mb-2"><i class="mdi mdi-circle text-transparent f-12 mr-2"></i><b>January 10, 2021</b>
-                    <br/>Presale on PinkSale</p>
-                  </div>
-
-                  {/*
                   <div className="contact-box mt-4">
                     <h5 className="f-20">Private Sale <span className="text-primary">Upcoming</span>
                     <br/>
                     </h5>
                     <div id="countdown">-</div>
-                    <p className="f-17">21,000,000 RDM Private Sale allocation
+                    <p className="f-17">
                     <br/>
-                    After private sale token sold, presale schedule will be announced soon.
+                    <br/>
+                    Phase 1 Price = $0,014
+                    <br/>
+                    <span className="f-14">December 21, 2021 - December 28, 2021</span>
+                    <br/><br/>
+                    Phase 2 Price = $0,015
+                    <br/>
+                    <span className="f-14">December 28, 2021 - December 07, 2022</span>
                     </p>
                     <a target="_blank" rel="noreferrer" href="https://forms.gle/CYxfpgDMG6qaqB3g8" className="btn btn-sm btn-soft-danger mr-3">Join Private Sale</a>
                   </div>
-                  */}
+
 
                   </Col>
                 </Row>
@@ -267,22 +264,22 @@ class Section extends Component {
           <Container>
             <Row>
               <Col lg={3}>
-                <div className="client-images mb-2">
+                <div className="client-images mb-4">
                   <img src={Imga} alt="" height="30" />
                 </div>
               </Col>
               <Col lg={3}>
-                <div className="client-images mb-2">
+                <div className="client-images mb-4">
                   <img src={Imgb} alt="" height="32" />
                 </div>
               </Col>
               <Col lg={3}>
-                <div className="client-images mb-2">
+                <div className="client-images mb-4">
                   <img src={Imgc} alt="" height="27" />
                 </div>
               </Col>
               <Col lg={3}>
-                <div className="client-images mb-2">
+                <div className="client-images mb-4">
                   <img src={Imgd} alt="" height="40" />
                 </div>
               </Col>
@@ -446,11 +443,11 @@ class Section extends Component {
                   <br/>
                   Every community member can participate in future development, and each platform is fully decentralized
                   </p>
-                  {/*
+                  
                   <div className="mt-4 pt-2">
-                    <a target="_blank" rel="noreferrer" href="https://forms.gle/CYxfpgDMG6qaqB3g8" className="btn btn-soft-danger">Join Private Sale</a>
+                    <a target="_blank" rel="noreferrer" href="https://forms.gle/CYxfpgDMG6qaqB3g8" className="btn btn-soft-danger">Buy RDM</a>
                   </div>
-                  */}
+                  
                 </div>
               </Col>
             </Row>
@@ -472,7 +469,6 @@ class Section extends Component {
             <Row>
               <Col lg={4}>
                   <div className="contact-box mt-4">
-                    <i className="mdi text-primary mdi-coffee-outline"></i>
                     <h5>Let's Talk!</h5>
                     <p className="text-muted">
                     Ask anything, at anytime.
