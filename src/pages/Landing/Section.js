@@ -194,12 +194,14 @@ class Section extends Component {
                       <Row>
                       <div className="mt-2 col-lg-8">
 
+                        {/*
                         <div className="search-form">
                           <div className="search-margin">
                             <Input id="contract" type="text" defaultValue="0x9ba4909e46a7a12d7be5057d35cda01ce3fd258b" placeholder="0x9ba4909e46a7a12d7be5057d35cda01ce3fd258b" style={{ height: 'unset' }} />
                             <Button onClick={this.btnTapped} className="btn btn-outline-danger">Copy Address</Button>
                           </div>
                         </div>
+                        */}
 
                         <div className="team-social mt-4 pt-2">
                           <ul className="list-inline mb-0">
