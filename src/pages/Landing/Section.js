@@ -233,7 +233,7 @@ class Section extends Component {
 
 
                   <div className="contact-box mt-4">
-                    <h5 className="f-20">Private Sale <span className="text-primary">Upcoming</span>
+                    <h5 className="f-20">Private Sale <span className="text-primary">Live</span>
                     <br/>
                     </h5>
                     <div id="countdown">-</div>
