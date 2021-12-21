@@ -246,7 +246,7 @@ class Section extends Component {
                     <br/><br/>
                     Phase 2 Price = $0,015
                     <br/>
-                    <span className="f-14">December 28, 2021 - December 07, 2022</span>
+                    <span className="f-14">December 28, 2021 - December 03, 2022</span>
                     </p>
                     <a target="_blank" rel="noreferrer" href="https://forms.gle/CYxfpgDMG6qaqB3g8" className="btn btn-sm btn-soft-danger mr-3">Join Private Sale</a>
                   </div>
