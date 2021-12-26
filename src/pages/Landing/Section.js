@@ -245,7 +245,7 @@ class Section extends Component {
                     <br/>
                     next goals will announced soon
                     <br/>
-                    <span className="f-14">December 07, 2022</span>
+                    <span className="f-14">December 07, 2021</span>
                     </p>
                   </div>
 
