@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Col, FormGroup, Input, Label } from "reactstrap";
+import { Container, Row, Col, FormGroup, Input, Label, Button } from "reactstrap";
 
 import Img from '../../assets/images/copy.png';
 import Img1 from '../../assets/images/users/1.png';
@@ -194,14 +194,12 @@ class Section extends Component {
                       <Row>
                       <div className="mt-2 col-lg-8">
 
-                        {/*
                         <div className="search-form">
                           <div className="search-margin">
                             <Input id="contract" type="text" defaultValue="0x9ba4909e46a7a12d7be5057d35cda01ce3fd258b" placeholder="0x9ba4909e46a7a12d7be5057d35cda01ce3fd258b" style={{ height: 'unset' }} />
-                            <Button onClick={this.btnTapped} className="btn btn-outline-danger">Copy Address</Button>
+                            <Button onClick={this.btnTapped} className="btn btn-outline-danger">Smart Contract</Button>
                           </div>
                         </div>
-                        */}
 
                         <div className="team-social mt-4 pt-2">
                           <ul className="list-inline mb-0">
@@ -235,22 +233,20 @@ class Section extends Component {
 
 
                   <div className="contact-box mt-4">
-                    <h5 className="f-20">Private Sale <span className="text-primary">Live</span>
-                    <br/>
-                    </h5>
-                    <div id="countdown">-</div>
+                    <h5 className="f-20">Announcement</h5>
                     <p className="f-17">
+                    Private Sale has been canceled,
                     <br/>
+                    funds will refunded to the contributors
                     <br/>
-                    Phase 1 Price = $0,014
-                    <br/>
-                    <span className="f-14">December 21, 2021 - December 28, 2021</span>
+                    <span className="f-14">December 27, 2021</span>
                     <br/><br/>
-                    Phase 2 Price = $0,015
+                    RedShard is under development,
                     <br/>
-                    <span className="f-14">December 28, 2021 - December 03, 2022</span>
+                    next goals will announced soon
+                    <br/>
+                    <span className="f-14">December 07, 2022</span>
                     </p>
-                    <a target="_blank" rel="noreferrer" href="https://forms.gle/CYxfpgDMG6qaqB3g8" className="btn btn-sm btn-soft-danger mr-3">Join Private Sale</a>
                   </div>
 
 
@@ -446,10 +442,12 @@ class Section extends Component {
                   Every community member can participate in future development, and each platform is fully decentralized
                   </p>
                   
+                  {/*
                   <div className="mt-4 pt-2">
                     <a target="_blank" rel="noreferrer" href="https://forms.gle/CYxfpgDMG6qaqB3g8" className="btn btn-soft-danger">Buy RDM</a>
                   </div>
-                  
+                  */}
+
                 </div>
               </Col>
             </Row>
@@ -469,7 +467,7 @@ class Section extends Component {
               </Col>
             </Row>
             <Row>
-              <Col lg={4}>
+              <Col lg={12}>
                   <div className="contact-box mt-4">
                     <h5>Let's Talk!</h5>
                     <p className="text-muted">
@@ -483,43 +481,6 @@ class Section extends Component {
                     team@redmoonrise.com
                     </p>
                   </div>
-              </Col>
-              <Col lg={8}>
-                <div className="custom-form mt-2">
-                  <div id="message"></div>
-                  <div id="contact-form">
-                    <Row>
-                      <Col lg={12}>
-                        <FormGroup>
-                          <Label>Name</Label>
-                          <Input name="name" id="name" className="form-control" type="text" />
-                        </FormGroup>
-                      </Col>
-                    </Row>
-                    <Row>
-                      <Col lg={12}>
-                        <FormGroup>
-                          <Label>Email</Label>
-                          <Input name="email" id="email" className="form-control" type="text" />
-                        </FormGroup>
-                      </Col>
-                    </Row>
-                    <Row>
-                      <Col lg={12}>
-                        <FormGroup>
-                          <Label>Message</Label>
-                          <Input type="textarea" name="comments" id="comments" rows="5" className="form-control" />
-                        </FormGroup>
-                      </Col>
-                    </Row>
-                    <Row>
-                      <Col lg={12}>
-                        <Input id="submit" name="send" color="primary" className="submitBnt btn btn-soft-danger btn-round" value="Send Message" type="submit" style={{width: 'auto',color: '#fff'}} />{' '}
-                        <div id="simple-msg"></div>
-                      </Col>
-                    </Row>
-                  </div>
-                </div>
               </Col>
             </Row>
           </Container>
